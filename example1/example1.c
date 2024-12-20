@@ -1,6 +1,6 @@
 #include "example1.h"
 
-/* TINY EXAMPLE 2 - SINGLE GENROU MACHINE, INFINITE BUS in pure IDA */
+/* TINY EXAMPLE - SINGLE GENROU MACHINE, INFINITE BUS in pure IDA */
 
 #define CHECK_OUTPUT(F) retval=F; if (retval < 0) { \
      printf("ERROR: Flag %d in function " #F, retval); return 1; }
